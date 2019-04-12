@@ -27,36 +27,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Schedule-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nano_Challenge_WWDC_Redesigned" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVe-s5-Irn">
-                                <rect key="frame" x="184" y="293" width="230" height="186"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="AYX-oF-vHP" kind="show" id="N7o-AZ-xu2"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Schedule" id="N49-2a-rLv"/>
-                    <connections>
-                        <segue destination="AYX-oF-vHP" kind="show" id="1cP-GQ-rIF"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1734.7826086956522" y="-559.15178571428567"/>
-        </scene>
         <!--Sessions-->
         <scene sceneID="lLQ-Gm-L1x">
             <objects>
@@ -251,7 +221,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZjW-74-bgw"/>
+                        <segue destination="AYX-oF-vHP" kind="relationship" relationship="rootViewController" id="wiK-XY-CXw"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C75-dQ-Q2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -754,7 +724,4 @@
         <image name="Star Open" width="71" height="68"/>
         <image name="nill" width="16" height="16"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="N7o-AZ-xu2"/>
-    </inferredMetricsTieBreakers>
 </document>
